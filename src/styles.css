@@ -99,6 +99,13 @@ h3 {
 .projects {
   border: 3px solid rgb(196, 196, 196);
   border-radius: 3px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.projects:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
 
 .about-header {
