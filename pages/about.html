@@ -24,26 +24,38 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-branding fixed-top">
+      <a class="navbar-brand" href="#">
           <img
             src="/images/logo.png"
             alt="Logo"
             title="Logo for website"
-            class="logo"
-          />
+            class="img-fluid logo"
+          /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="/index.html" title="Homepage" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="/pages/about.html" title="About me" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/work.html" title="My Projects" class="nav-link">Projects</a>
+          </li>
+           <li class="nav-item">
+            <a href="/pages/about.html#contact" title="Contact me" class="nav-link">Contact</a>
+          </li>
+          </ul>
         </div>
-        <div class="col navbar text-end">
-          <a href="/index.html" title="Homepage">Home</a> |
-          <a href="/pages/about.html" title="About Megan">About Me</a>|
-          <a href="/pages/work.html" title="My Work">Projects</a> |
-          <a href="/pages/about.html#contact" title="Contact me">Contact me</a>
-        </div>
-      </div>
-    </div>
+    </nav>
+    
      
-    <div class="container">
+    <div class="container main-body">
       <div class="row">
         <div class="col-md-6 text-center">
           <h1 class="about-header">Hi, I am Megan Jones</h1>
@@ -52,7 +64,7 @@
       
           Tools I use: HTML, CSS, JavaScript, Bootstrap, GitHub and API integration. 
            <p class="mt-1">
-          I am a creative developer with a strong interest in creating modern, minimalistic designs.
+          I am a creative developer with a strong interest in creating modern, minimalistic and responsive designs.
           <p class="mt-1">
           Let's make something special.
           <div class="container">
@@ -78,7 +90,7 @@
               <a href="https://www.linkedin.com/in/megan-jones-a25462ab/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://www.instagram.com/the.megan.jones" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
           </h2></div></div>
-   <div class="container">
+   <div class="container mt-5">
       <div class="row">
         <footer class="mt-5 fixed-bottom text-end">
           Coded by

@@ -27,25 +27,53 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img
-            src="/images/logo.png"
-            alt="Logo"
-            title="Logo for website"
-            class="logo"
-          />
-        </div>
-        <div class="col navbar text-end">
-          <a href="/index.html" title="Homepage" class="active">Home</a> |
-          <a href="/pages/about.html" title="About Me">About Me</a> |
-          <a href="/pages/work.html" title="My Work">Projects</a> |
-          <a href="/pages/about.html#contact" title="Contact me">Contact me</a>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-branding fixed-top">
+      <a class="navbar-brand" href="#">
+        <img
+          src="/images/logo.png"
+          alt="Logo"
+          title="Logo for website"
+          class="img-fluid logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="/index.html" title="Homepage" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/about.html" title="About me" class="nav-link"
+              >About me</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/pages/work.html" title="My Projects" class="nav-link"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="/pages/about.html#contact"
+              title="Contact me"
+              class="nav-link"
+              >Contact</a
+            >
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="container mt-2 hero">
+    </nav>
+    <div class="container hero">
       <h2>Hi I am,</h2>
       <h1>Megan Jones</h1>
       <h3>Frontend developer based in Italy</h3>
