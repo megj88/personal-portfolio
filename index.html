@@ -15,6 +15,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/src/styles.css" />
     <title>Megan Jones | Personal Portfolio</title>
     <meta
       name="description"
@@ -22,11 +23,34 @@
     />
   </head>
   <body>
-    Nav Bar - <a href="/index.html" title="Homepage">Home</a> |
-    <a href="/pages/about.html" title="About Megan">About Me</a>|
-    <a href="/pages/work.html" title="My Work">Projects</a> | Contact Me
-    <div class="container">Hero</div>
-    <div class="container">My Projects</div>
-    <div class="container">Footer</div>
+    <div class="container">
+      <img src="/images/logo.png" alt="Logo" title="Logo for website" /><a
+        href="/index.html"
+        title="Homepage"
+        class="active"
+        >Home</a
+      >
+      | <a href="/pages/about.html" title="About Megan">About Me</a>|
+      <a href="/pages/work.html" title="My Work">Projects</a> |
+      <a href="/pages/about.html#contact" title="Contact me">Contact me</a>
+    </div>
+    <div class="container mt-2">
+      <h2 class="text-center">Hi I am,</h2>
+      <h1 class="text-center">Megan Jones</h1>
+      <h3 class="text-center">Frontend developer based in Italy</h3>
+    </div>
+    <div class="container">
+      <h2 class="text-center mt-5">My Projects</h2>
+      <div class="row">
+        <div class="md-col-4 text-center">Project 1</div>
+        <div class="md-col-4 text-center">Project 1</div>
+        <div class="md-col-4 text-center">Project 1</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <footer class="mt-5 fixed-bottom">Footer here</footer>
+      </div>
+    </div>
   </body>
 </html>

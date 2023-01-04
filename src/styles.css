@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #212121;
+  color: rgb(222, 221, 221);
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #14ffec;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline overline;
+}
+
+a:visited {
+  color: #0d7377;
+}
+
+a .active {
+  font-weight: bold;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+img {
+  max-width: 300px;
+}
