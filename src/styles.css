@@ -42,8 +42,12 @@ h3 {
   font-size: 20px;
 }
 
-img {
+.logo {
   max-width: 300px;
+}
+
+.projects {
+  max-width: 200px;
 }
 
 .hero {
