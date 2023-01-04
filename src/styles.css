@@ -79,6 +79,7 @@ h3 {
 .btn-branding {
   background-color: #0d7377;
   color: #212121;
+  font-family: "Montserrat", sans-serif;
   border-radius: 8px;
   text-decoration: none;
 }
@@ -86,8 +87,7 @@ h3 {
 .btn-branding:visited {
   background-color: #0d7377;
   color: #212121;
-  border-font-family: "Montserrat", sans-serif;
-  radius: 8px;
+  border-radius: 8px;
   text-decoration: none;
 }
 
