@@ -107,8 +107,8 @@ h3 {
 .projects {
   border: 3px solid rgb(196, 196, 196);
   border-radius: 3px;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  filter: grayscale(40%);
+  -webkit-filter: grayscale(40%);
 }
 
 .projects:hover {
